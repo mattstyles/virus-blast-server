@@ -1,0 +1,29 @@
+{
+  "name": "virus-blast-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./index.js",
+    "lint": "eslint ./lib/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mattstyles",
+  "repository": "git://github.com/mattstyles/virus-blast-server.git",
+  "license": "WTFPL",
+  "dependencies": {
+    "babel": "^5.4.7",
+    "babel-core": "^5.4.7",
+    "co-body": "0.0.2",
+    "co-views": "^0.2.0",
+    "hogan.js": "^3.0.2",
+    "koa": "^0.8.1",
+    "koa-logger": "^1.2.1",
+    "koa-route": "^1.1.4",
+    "koa-static": "^1.4.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.1.9",
+    "eslint": "^0.21.2"
+  }
+}
